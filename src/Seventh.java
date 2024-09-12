@@ -28,7 +28,7 @@ public class Seventh {
         reverse(a, k, a.length - 1);
     }
 
-    public static void main(String[] args) {
+    public static void  main(String[] args) {
         // Rotate the array by 3 places
         int[] arr = {1, 2, 3, 4, 5, 6, 7};
         rotate(arr, 3);
