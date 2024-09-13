@@ -10,14 +10,14 @@ public class Fourtheenth {
 //        // length substract with K Element
 //        return a[a.length-m1];
 //    }
-    //2 Approach :-> Using Min-heap Approach
+    //2 Approach :-> Using Min-heap Approach for implementing PriorityQueue .
     public static  int returnKValue(int[] a,int m1){
 
         PriorityQueue<Integer> minHeap = new PriorityQueue<>(m1);
 
         // Step 2: Iterate over the array
         for (int num : a) {
-            // Add the element to the heap
+            // Add the element to the heap  offer method for adding elements.
             minHeap.offer(num);
 
             // If the heap size exceeds k, remove the smallest element
