@@ -53,12 +53,15 @@ public class Seventeenth {
     }
 
     public static void main(String[] args) {
-        // Example input array
-        int[] nums = {-1, 0, 1, 2, -1, -4};
-        int n = nums.length;
+//        // Example input array
+//        int[] nums = {-1, 0, 1, 2, -1, -4};
+//        int n = nums.length;
+//
+//        // Call the returnTripletSumAMtches method and print the result
+//        List<List<Integer>> result = returnTripletSumAMtches(nums, n);
+//        System.out.println(result); // Expected Output: [[-1, -1, 2], [-1, 0, 1]]
 
-        // Call the returnTripletSumAMtches method and print the result
-        List<List<Integer>> result = returnTripletSumAMtches(nums, n);
-        System.out.println(result); // Expected Output: [[-1, -1, 2], [-1, 0, 1]]
+
+
     }
 }
